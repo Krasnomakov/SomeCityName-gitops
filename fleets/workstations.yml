@@ -72,10 +72,6 @@ controls:
         labels_include_all:
           - Department - Engineering
 
-      - path: ../platforms/ios/configuration-profiles/passcode-settings.json
-        labels_exclude_any:
-          - C-Suite
-
   windows_settings:
     configuration_profiles:
       - paths: ../platforms/windows/configuration-profiles/*.xml

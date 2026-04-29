@@ -24,6 +24,12 @@ labels:
     hosts:
   
 controls:
+  apple_settings:
+    configuration_profiles:
+     - path: ../platforms/ios/configuration-profiles/passcode-settings.json
+        labels_exclude_any:
+          - C-Suite
+          
   setup_experience:
     ###########################################################
     # Uncomment to use single-sign on (SSO) to authenticate
