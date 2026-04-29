@@ -47,12 +47,6 @@ controls:
   #   • https://fleetdm.com/docs/configuration/yaml-files#apple-settings-and-windows-settings
   #   • https://fleetdm.com/docs/configuration/yaml-files#android-settings
   ###########################################################
-  apple_settings:
-    configuration_profiles:
-      # … e.g.
-      - path: ../platforms/ios/configuration-profiles/passcode-settings.json
-        labels_exclude_any:
-          - C-Suite
       # - path: ../lib/ios/configuration-profiles/self-service.mobileconfig
   android_settings:
     configuration_profiles:

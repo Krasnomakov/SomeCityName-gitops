@@ -90,7 +90,7 @@ controls:
   #   • https://fleetdm.com/guides/enforce-disk-encryption
   ###########################################################
   enable_disk_encryption: true
-  enable_recovery_lock_passwword: true
+  enable_recovery_lock_password: true
 
   ipados_updates:
     deadline: "2026-07-30"
