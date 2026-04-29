@@ -19,6 +19,7 @@ controls:
   macos_updates:
     deadline: "2026-07-30"
     minimum_version: "26.4"
+
   apple_settings:
     configuration_profiles:
       - path:
@@ -77,7 +78,7 @@ controls:
   apple_settings:
     configuration_profiles:
       - paths: ../platforms/macos/declaration-profiles/*.json
-      - paths: ../platforms/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
+      - path: ../platforms/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
         labels_include_all:
           - Department: "Engineering"
   windows_settings:
