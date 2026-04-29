@@ -72,6 +72,10 @@ controls:
         labels_include_all:
           - Department - Engineering
 
+      - path: ../platforms/ios/configuration-profiles/passcode-settings.json
+        labels_exclude_any:
+          - C-Suite
+
   windows_settings:
     configuration_profiles:
       - paths: ../platforms/windows/configuration-profiles/*.xml
@@ -85,7 +89,12 @@ controls:
   # Read more here:
   #   • https://fleetdm.com/guides/enforce-disk-encryption
   ###########################################################
-  # enable_disk_encryption: true
+  enable_disk_encryption: true
+  enable_recovery_lock_passwword: true
+
+  ipados_updates:
+    deadline: "2026-07-30"
+    minimum_version: "26.2"
 
   ###########################################################
   # Managed OS updates
