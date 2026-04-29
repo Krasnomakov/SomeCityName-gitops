@@ -1,4 +1,40 @@
-# Fleet
+# Fleet GitOps - Leiden 2026 ✨
+
+Created during the Fleet for GitOps event in Leiden (2026). 🚲🌷
+
+## What we learned (Fleet fundamentals)
+
+- Install fleetctl ⚙️
+- Log in to Fleet 🔐
+- Connect GitHub repo to Fleet 🔗
+- Modify organization settings 🏢
+- Add labels 🏷️
+- Add controls 🧩
+- Enable GitOps mode 🧭
+- Add policies ✅
+- Add software to Workstations in Fleet 💻
+- Add Cloudflare WARP to personal mobile devices 📱
+- Add a fleet-maintained app 🧰
+
+## Technologies used
+
+![Fleet](https://img.shields.io/badge/Fleet-GitOps-2D7FF9?style=flat)
+![fleetctl](https://img.shields.io/badge/fleetctl-CLI-4B5563?style=flat)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI-2088FF?style=flat&logo=githubactions&logoColor=white)
+![GitOps](https://img.shields.io/badge/GitOps-Enabled-10B981?style=flat)
+![YAML](https://img.shields.io/badge/YAML-Config-000000?style=flat&logo=yaml&logoColor=white)
+![Cloudflare WARP](https://img.shields.io/badge/Cloudflare-WARP-F38020?style=flat&logo=cloudflare&logoColor=white)
+
+![macOS](https://img.shields.io/badge/macOS-Apple-000000?style=flat&logo=apple&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-Hosts-0078D6?style=flat&logo=windows&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-Hosts-FCC624?style=flat&logo=linux&logoColor=black)
+![iOS](https://img.shields.io/badge/iOS-Devices-000000?style=flat&logo=apple&logoColor=white)
+![iPadOS](https://img.shields.io/badge/iPadOS-Devices-000000?style=flat&logo=apple&logoColor=white)
+![Android](https://img.shields.io/badge/Android-Devices-3DDC84?style=flat&logo=android&logoColor=white)
+
+---
+
+## Overview
 
 These files allow you to configure, patch, and secure computing devices for your organization.
 
