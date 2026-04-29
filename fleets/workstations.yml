@@ -16,16 +16,6 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 name: "💻 Workstations"
 controls:
-  macos_updates:
-    deadline: "2026-07-30"
-    minimum_version: "26.4"
-
-  apple_settings:
-    configuration_profiles:
-      - path:
-../platforms/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
-        labels_include_all:
-          - Department: "Engineering"
   setup_experience:
     ###########################################################
     # Configure the macOS setup experience
@@ -80,7 +70,7 @@ controls:
       - paths: ../platforms/macos/declaration-profiles/*.json
       - path: ../platforms/macos/configuration-profiles/disable-bluetooth-file-sharing.mobileconfig
         labels_include_all:
-          - Department: "Engineering"
+          - Department: "Engineering
   windows_settings:
     configuration_profiles:
       - paths: ../platforms/windows/configuration-profiles/*.xml
@@ -107,10 +97,10 @@ controls:
   #   • https://fleetdm.com/docs/configuration/yaml-files#windows-updates
   #   • https://fleetdm.com/guides/enforce-os-updates
   ###########################################################
-  # macos_updates:
-  #   deadline: "2030-04-01"
-  #   minimum_version: "26.0"
-  #   update_new_hosts: true
+  macos_updates:
+    deadline: "2030-04-01"
+    minimum_version: "26.0"
+    update_new_hosts: true
   # windows_updates:
   #   deadline_days: 7
   #   grace_period_days: 2
